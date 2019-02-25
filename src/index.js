@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 import React, { Component } from 'react' 
 import ReactDOM from 'react-dom'
+=======
+import React, { Component } from 'react' // We need to import react so we can make use of its .component class
+import ReactDOM from 'react-dom' // ...and we need to import ReactDOM so we can create and test a virtual DOM with react!
+>>>>>>> ca0cc07f9f998f9a74734b9e332483b3c1e413b8
 
 const BUTCHER_PRODUCTS = [
   'Tenderloin',
@@ -8,10 +13,20 @@ const BUTCHER_PRODUCTS = [
   'Ribeye'
 ]
 
+<<<<<<< HEAD
 export class OlderCoaster extends React.Component {
   render() {
     return (
       <div className="oldercoaster">
+=======
+// Define these exported classes
+export class OlderCoaster extends Component {
+
+  // this function should return the JSX we want the DOM to render
+  render() {
+    return (
+      <div>Hello!</div><div class="oldercoaster">
+>>>>>>> ca0cc07f9f998f9a74734b9e332483b3c1e413b8
         <p>Two grannies having the time of their life!</p>
         <p>Passengers:</p>
         <ul>
@@ -19,7 +34,10 @@ export class OlderCoaster extends React.Component {
           <li>Muriel</li>
         </ul>
       </div>
+<<<<<<< HEAD
       )
+=======
+>>>>>>> ca0cc07f9f998f9a74734b9e332483b3c1e413b8
   }
   
 }
